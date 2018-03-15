@@ -10,6 +10,10 @@
     "categories": [
         "Languages"
     ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klimcode/notekeeper-syntax.git"
+  },
     "contributes": {
         "languages": [{
             "id": "note",
