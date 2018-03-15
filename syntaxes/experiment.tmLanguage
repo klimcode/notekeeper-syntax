@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>scopeName</key>
+        <string>source.js</string>
+
+        <key>fileTypes</key>
+        <array>
+            <string>note</string>
+        </array>
+
+        <key>name</key>
+        <string>Note file</string>
+
+        <key>patterns</key>
+        <array>
+            <dict>
+                <key>match</key>
+                <string>\b([A-Z]*)\b</string>
+                <key>name</key>
+                <string>constant</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>\b(add)\b</string>
+                <key>name</key>
+                <string>string</string>
+            </dict>                                
+        </array>
+    </dict>
+</plist>

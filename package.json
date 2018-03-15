@@ -1,0 +1,26 @@
+{
+    "name": "notekeeper-syntax",
+    "displayName": "notekeeper-syntax",
+    "description": "Provides a syntax for notes (JS React)",
+    "version": "0.1.0",
+    "publisher": "klimcode",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "note",
+            "aliases": ["note"],
+            "extensions": [".note"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "note",
+            "scopeName": "source.js.jsx",
+            "path": "./syntaxes/JavaScriptReact.tmLanguage.json"
+        }]
+    }
+}
